@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
-import { fetchStockPrices } from '../services/stockService';
+import { fetchStockPrices } from '../services/stockservice';
 
 export default function ApiFetcher({ setPrices }) {
   const [symbol, setSymbol] = useState('');
